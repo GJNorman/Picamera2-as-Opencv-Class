@@ -4,7 +4,7 @@ Class for interfacing Picamera2 into Opencv
 example usage
 
 
-    from PiCameraOpencCV import PiCameraOpencCV
+    from PiCameraOpenCV import PiCameraOpenCV
     import cv2 as cv
     # settings are defined in a dictionary
     camera_settings = { 
@@ -34,7 +34,7 @@ example usage
     }
 
     # interface replicates opencv functionality 
-    cap = PiCameraOpencCV(camera_settings)
+    cap = PiCameraOpenCV(camera_settings)
 
     while cap.isOpened():
         success,frame = cap.read()
