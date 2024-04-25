@@ -2,7 +2,7 @@
 from picamera2 import Picamera2  # required for camera module v3
 import cv2 as cv
 
-class PiCameraOpencCV():
+class PiCameraOpenCV():
 
     def __init__(self,camera_settings):
 
