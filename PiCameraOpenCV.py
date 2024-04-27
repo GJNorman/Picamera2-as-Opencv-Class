@@ -58,7 +58,7 @@ class PiCameraOpenCV():
         self.active_config = main_or_lores
         return
     def read(self):
-
+        dst = None
         if self.is_open:
             dst = self.cap.capture_array(self.active_config)
 
