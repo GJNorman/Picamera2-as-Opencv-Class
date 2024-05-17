@@ -1,5 +1,7 @@
 # Picamera2-as-Opencv-Class
-Class for interfacing Picamera2 into Opencv
+Class for interfacing Picamera2 library into Opencv
+
+This adds opencv compatibility for the Raspberry pi Camera Module 3 
 
 example usage
 
